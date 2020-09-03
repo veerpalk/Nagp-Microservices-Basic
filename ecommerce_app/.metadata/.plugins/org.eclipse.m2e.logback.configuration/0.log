@@ -1,0 +1,153 @@
+2020-08-22 22:10:50,753 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-22 22:11:17,218 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nagarro.nagp:discovery-server:0.0.1-SNAPSHOT @ D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\discovery-server\pom.xml.
+2020-08-22 22:11:18,305 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nagarro.nagp:products:0.0.1-SNAPSHOT @ D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\products\pom.xml.
+2020-08-22 22:11:18,656 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nagarro.nagp:payment:0.0.1-SNAPSHOT @ D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\payment\pom.xml.
+2020-08-22 22:11:18,990 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nagarro.nagp:order:0.0.1-SNAPSHOT @ D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\order\pom.xml.
+2020-08-22 22:11:19,271 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nagarro.nagp:cart:0.0.1-SNAPSHOT @ D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\cart\pom.xml.
+2020-08-22 22:11:19,550 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nagarro.nagp:apigateway:0.0.1-SNAPSHOT @ D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\apigateway\pom.xml.
+2020-08-22 22:11:19,906 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nagarro.nagp:account:0.0.1-SNAPSHOT @ D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\account\pom.xml.
+2020-08-22 22:11:23,202 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cart/src/main/java
+2020-08-22 22:11:23,202 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cart/src/main/resources
+2020-08-22 22:11:23,203 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cart/src/main/resources
+2020-08-22 22:11:23,204 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cart/src/test/java
+2020-08-22 22:11:23,544 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /products/src/main/java
+2020-08-22 22:11:23,544 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /products/src/main/resources
+2020-08-22 22:11:23,544 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /products/src/main/resources
+2020-08-22 22:11:23,545 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /products/src/test/java
+2020-08-22 22:11:23,895 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /payment/src/main/java
+2020-08-22 22:11:23,895 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /payment/src/main/resources
+2020-08-22 22:11:23,896 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /payment/src/main/resources
+2020-08-22 22:11:23,896 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /payment/src/test/java
+2020-08-22 22:11:24,219 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /discovery-server/src/main/java
+2020-08-22 22:11:24,219 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /discovery-server/src/main/resources
+2020-08-22 22:11:24,220 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /discovery-server/src/main/resources
+2020-08-22 22:11:24,220 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /discovery-server/src/test/java
+2020-08-22 22:11:24,734 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order/src/main/java
+2020-08-22 22:11:24,734 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order/src/main/resources
+2020-08-22 22:11:24,734 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order/src/main/resources
+2020-08-22 22:11:24,735 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order/src/test/java
+2020-08-22 22:11:25,114 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /account/src/main/java
+2020-08-22 22:11:25,114 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /account/src/main/resources
+2020-08-22 22:11:25,115 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /account/src/main/resources
+2020-08-22 22:11:25,115 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /account/src/test/java
+2020-08-22 22:11:25,373 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /apigateway/src/main/java
+2020-08-22 22:11:25,373 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /apigateway/src/main/resources
+2020-08-22 22:11:25,373 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /apigateway/src/main/resources
+2020-08-22 22:11:25,374 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /apigateway/src/test/java
+2020-08-22 22:11:25,613 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 7 project(s) in 11 sec
+2020-08-22 22:11:30,101 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-22 22:11:30,106 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-22 22:11:30,141 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-22 22:11:30,156 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-22 22:11:30,157 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\account\src\test\resources
+2020-08-22 22:11:31,761 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-22 22:11:31,762 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-22 22:11:31,779 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-22 22:11:31,782 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-22 22:11:31,783 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\apigateway\src\test\resources
+2020-08-22 22:11:34,131 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-22 22:11:34,132 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-22 22:11:34,147 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-22 22:11:34,157 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-22 22:11:34,158 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\cart\src\test\resources
+2020-08-22 22:11:35,720 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-22 22:11:35,722 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-22 22:11:35,734 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-22 22:11:35,738 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-22 22:11:35,738 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\discovery-server\src\test\resources
+2020-08-22 22:11:37,675 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-22 22:11:37,676 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-22 22:11:37,678 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-22 22:11:37,683 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-22 22:11:37,684 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\order\src\test\resources
+2020-08-22 22:11:39,431 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-22 22:11:39,432 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-22 22:11:39,448 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-22 22:11:39,456 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-22 22:11:39,457 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\payment\src\test\resources
+2020-08-22 22:11:41,238 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-22 22:11:41,239 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-22 22:11:41,249 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-22 22:11:41,255 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-22 22:11:41,255 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\products\src\test\resources
+2020-08-23 14:55:12,553 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 14:55:12,558 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-23 14:55:12,564 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-23 14:55:12,567 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 14:55:12,567 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\cart\src\test\resources
+2020-08-23 14:55:15,628 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 14:55:15,629 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-23 14:55:15,632 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-23 14:55:15,634 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 14:55:15,634 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\cart\src\test\resources
+2020-08-23 23:23:56,111 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 23:23:56,113 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-23 23:23:56,122 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-23 23:23:56,125 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 23:23:56,125 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\order\src\test\resources
+2020-08-26 23:21:52,512 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-26 23:21:52,519 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-26 23:21:52,521 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-26 23:21:52,523 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-26 23:21:52,523 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\account\src\test\resources
+2020-08-27 00:14:16,318 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-27 00:14:16,319 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-27 00:14:16,319 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-27 00:14:16,322 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-27 00:14:16,323 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\apigateway\src\test\resources
+2020-08-27 00:14:18,404 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-27 00:14:18,404 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-27 00:14:18,404 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-27 00:14:18,407 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-27 00:14:18,407 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\apigateway\src\test\resources
+2020-08-27 00:14:42,127 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-27 00:14:42,127 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-27 00:14:42,127 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-27 00:14:42,130 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-27 00:14:42,131 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\products\src\test\resources
+2020-08-27 00:14:44,163 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-27 00:14:44,163 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-27 00:14:44,163 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-27 00:14:44,166 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-27 00:14:44,166 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\products\src\test\resources
+2020-08-28 00:49:01,801 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-28 00:49:01,805 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-28 00:49:01,812 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-28 00:49:01,815 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-28 00:49:01,815 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\cart\src\test\resources
+2020-08-28 22:50:51,866 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-08-28 22:51:17,227 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-28 22:51:17,235 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-28 22:51:17,268 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-28 22:51:17,293 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-28 22:51:17,293 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\account\src\test\resources
+2020-08-28 22:51:20,913 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-28 22:51:20,914 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-28 22:51:20,931 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-28 22:51:20,934 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-28 22:51:20,934 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\apigateway\src\test\resources
+2020-08-28 22:51:23,139 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-28 22:51:23,139 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-28 22:51:23,149 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-28 22:51:23,157 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-28 22:51:23,157 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\cart\src\test\resources
+2020-08-28 22:51:25,600 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-28 22:51:25,600 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-28 22:51:25,611 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-28 22:51:25,614 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-28 22:51:25,614 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\discovery-server\src\test\resources
+2020-08-28 22:51:27,188 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-28 22:51:27,188 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-28 22:51:27,200 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-28 22:51:27,209 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-28 22:51:27,209 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\order\src\test\resources
+2020-08-28 22:51:28,679 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-28 22:51:28,680 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-28 22:51:28,690 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-28 22:51:28,697 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-28 22:51:28,697 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\payment\src\test\resources
+2020-08-28 22:51:30,069 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-28 22:51:30,070 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-28 22:51:30,079 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-28 22:51:30,084 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-28 22:51:30,084 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NAGP-2020\1.Microservices\Microservices-Basic-1\MicroserviceBasicAssignment\VeerpalKaur_3147229_Microservices\ecommerce_app\products\src\test\resources

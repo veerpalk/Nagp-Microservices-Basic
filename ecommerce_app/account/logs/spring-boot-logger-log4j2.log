@@ -1,0 +1,142 @@
+2020-08-27 00:15:00,164 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-27 00:15:00,460 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 00:15:01,125 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-27 00:15:02,943 INFO o.s.c.a.ConfigurationClassPostProcessor [restartedMain] Cannot enhance @Configuration bean definition 'org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerEndpointsConfiguration$TokenKeyEndpointRegistrar' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2020-08-27 00:15:03,135 INFO o.s.c.c.s.GenericScope [restartedMain] BeanFactory id=f4998927-7622-35d5-8292-e1e81860bb52
+2020-08-27 00:15:03,390 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 00:15:03,401 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 00:15:03,404 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5d68e110' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 00:15:03,410 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 00:15:03,417 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 00:15:03,436 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 00:15:04,231 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8092 (http)
+2020-08-27 00:15:04,262 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8092"]
+2020-08-27 00:15:04,263 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-27 00:15:04,264 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-08-27 00:15:04,592 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-27 00:15:04,592 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3426 ms
+2020-08-27 00:15:05,375 WARN o.s.s.o.p.t.s.JwtAccessTokenConverter [restartedMain] Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2020-08-27 00:15:06,040 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e4038cc, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ebe634b, org.springframework.security.web.header.HeaderWriterFilter@7a78ccbc, org.springframework.security.web.authentication.logout.LogoutFilter@3de572f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@382eeabb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6dcabbc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@470082e5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@282af38, org.springframework.security.web.session.SessionManagementFilter@6ba69cb2, org.springframework.security.web.access.ExceptionTranslationFilter@f04184, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e6a86da]
+2020-08-27 00:15:06,058 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Creating filter chain: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@16a7833c, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b117af7, org.springframework.security.web.context.SecurityContextPersistenceFilter@695c02ae, org.springframework.security.web.header.HeaderWriterFilter@1ec7d835, org.springframework.security.web.authentication.logout.LogoutFilter@378d90ed, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@56e1542b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3889bcfc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@18afcda8, org.springframework.security.web.session.SessionManagementFilter@1b37ae73, org.springframework.security.web.access.ExceptionTranslationFilter@23be474e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@733bce38]
+2020-08-27 00:15:06,064 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2997d1f, org.springframework.security.web.context.SecurityContextPersistenceFilter@46332e13, org.springframework.security.web.header.HeaderWriterFilter@44a6a749, org.springframework.security.web.authentication.logout.LogoutFilter@375ebbff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fb7b46b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2edacc3b, org.springframework.security.web.session.SessionManagementFilter@2d7d6476, org.springframework.security.web.access.ExceptionTranslationFilter@1da087b1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@158a36e0]
+2020-08-27 00:15:06,107 INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-27 00:15:06,146 WARN c.n.c.s.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-08-27 00:15:06,146 INFO c.n.c.s.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-27 00:15:06,155 WARN c.n.c.s.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-08-27 00:15:06,156 INFO c.n.c.s.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-27 00:15:06,353 INFO o.s.s.c.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 00:15:06,445 WARN o.s.b.d.a.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2020-08-27 00:15:08,319 WARN o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [restartedMain] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-08-27 00:15:08,383 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-08-27 00:15:08,544 INFO o.s.c.n.e.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2020-08-27 00:15:08,602 INFO c.n.d.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2020-08-27 00:15:09,318 INFO c.n.d.p.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2020-08-27 00:15:09,319 INFO c.n.d.p.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2020-08-27 00:15:09,585 INFO c.n.d.p.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2020-08-27 00:15:09,586 INFO c.n.d.p.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2020-08-27 00:15:09,835 INFO c.n.d.s.r.a.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2020-08-27 00:15:10,113 INFO c.n.d.DiscoveryClient [restartedMain] Disable delta property : false
+2020-08-27 00:15:10,113 INFO c.n.d.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2020-08-27 00:15:10,113 INFO c.n.d.DiscoveryClient [restartedMain] Force full registry fetch : false
+2020-08-27 00:15:10,113 INFO c.n.d.DiscoveryClient [restartedMain] Application is null : false
+2020-08-27 00:15:10,113 INFO c.n.d.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2020-08-27 00:15:10,114 INFO c.n.d.DiscoveryClient [restartedMain] Application version is -1: true
+2020-08-27 00:15:10,114 INFO c.n.d.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2020-08-27 00:15:10,227 INFO c.n.d.DiscoveryClient [restartedMain] The response status is 200
+2020-08-27 00:15:10,229 INFO c.n.d.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2020-08-27 00:15:10,232 INFO c.n.d.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-08-27 00:15:10,237 INFO c.n.d.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1598467510235 with initial instances count: 0
+2020-08-27 00:15:10,240 INFO o.s.c.n.e.s.EurekaServiceRegistry [restartedMain] Registering application ACCOUNT with eureka with status UP
+2020-08-27 00:15:10,240 INFO c.n.d.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1598467510240, current=UP, previous=STARTING]
+2020-08-27 00:15:10,243 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ACCOUNT/host.docker.internal:account:8092: registering service...
+2020-08-27 00:15:10,244 INFO s.d.s.w.p.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2020-08-27 00:15:10,276 INFO s.d.s.w.p.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2020-08-27 00:15:10,320 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ACCOUNT/host.docker.internal:account:8092 - registration status: 204
+2020-08-27 00:15:10,357 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2020-08-27 00:15:10,539 INFO s.d.s.w.r.o.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addUserUsingPOST_1
+2020-08-27 00:15:10,543 INFO s.d.s.w.r.o.CachingOperationNameGenerator [restartedMain] Generating unique operation named: deleteUserUsingDELETE_1
+2020-08-27 00:15:10,557 INFO s.d.s.w.r.o.CachingOperationNameGenerator [restartedMain] Generating unique operation named: getAllUsersUsingGET_1
+2020-08-27 00:15:10,562 INFO s.d.s.w.r.o.CachingOperationNameGenerator [restartedMain] Generating unique operation named: getUserUsingGET_1
+2020-08-27 00:15:10,651 INFO s.d.s.w.r.o.CachingOperationNameGenerator [restartedMain] Generating unique operation named: getAllProductsUsingGET_1
+2020-08-27 00:15:10,655 INFO s.d.s.w.r.o.CachingOperationNameGenerator [restartedMain] Generating unique operation named: getProductUsingGET_1
+2020-08-27 00:15:10,669 INFO s.d.s.w.r.o.CachingOperationNameGenerator [restartedMain] Generating unique operation named: searchProductUsingGET_1
+2020-08-27 00:15:10,673 INFO s.d.s.w.r.o.CachingOperationNameGenerator [restartedMain] Generating unique operation named: getAllOrdersUsingGET_1
+2020-08-27 00:15:10,675 INFO s.d.s.w.r.o.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateOrderStatusUsingPUT_1
+2020-08-27 00:15:10,750 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8092"]
+2020-08-27 00:15:10,777 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8092 (http) with context path ''
+2020-08-27 00:15:10,779 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [restartedMain] Updating port to 8092
+2020-08-27 00:15:11,157 INFO o.s.b.StartupInfoLogger [restartedMain] Started AccountApplication in 12.166 seconds (JVM running for 14.762)
+2020-08-27 00:15:37,164 INFO o.a.j.l.DirectJDKLog [http-nio-8092-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 00:15:37,165 INFO o.s.w.s.FrameworkServlet [http-nio-8092-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-08-27 00:15:37,181 INFO o.s.w.s.FrameworkServlet [http-nio-8092-exec-2] Completed initialization in 16 ms
+2020-08-27 00:15:40,231 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2020-08-27 00:15:40,231 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2020-08-27 00:15:40,231 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2020-08-27 00:15:40,232 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2020-08-27 00:15:40,232 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2020-08-27 00:15:40,232 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2020-08-27 00:15:40,233 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2020-08-27 00:15:40,299 INFO c.n.d.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2020-08-27 00:16:03,887 INFO c.n.n.a.c.CustomerController [http-nio-8092-exec-4] Get all products
+2020-08-27 00:16:03,889 INFO c.n.n.a.s.i.CustomerServiceImpl [http-nio-8092-exec-4] Get all products
+2020-08-27 00:16:03,889 INFO c.n.n.a.r.ProductRestClient [http-nio-8092-exec-4] Calling Product restClient to get all products with url:http://products/products
+2020-08-27 00:16:04,183 INFO c.n.c.ChainedDynamicProperty$ChainLink [http-nio-8092-exec-4] Flipping property: products.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-08-27 00:16:04,209 INFO c.n.u.c.ShutdownEnabledTimer [http-nio-8092-exec-4] Shutdown hook installed for: NFLoadBalancer-PingTimer-products
+2020-08-27 00:16:04,210 INFO c.n.l.BaseLoadBalancer [http-nio-8092-exec-4] Client: products instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=products,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-08-27 00:16:04,220 INFO c.n.l.DynamicServerListLoadBalancer [http-nio-8092-exec-4] Using serverListUpdater PollingServerListUpdater
+2020-08-27 00:16:04,244 INFO c.n.c.ChainedDynamicProperty$ChainLink [http-nio-8092-exec-4] Flipping property: products.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-08-27 00:16:04,247 INFO c.n.l.DynamicServerListLoadBalancer [http-nio-8092-exec-4] DynamicServerListLoadBalancer for client products initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=products,current list of Servers=[host.docker.internal:8091],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:host.docker.internal:8091;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@7c8cfba9
+2020-08-27 00:16:05,225 INFO c.n.c.ChainedDynamicProperty$ChainLink [PollingServerListUpdater-0] Flipping property: products.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-08-27 00:16:18,878 INFO c.n.n.a.c.CustomerController [http-nio-8092-exec-6] Get product with productId:20
+2020-08-27 00:16:18,879 INFO c.n.n.a.s.i.CustomerServiceImpl [http-nio-8092-exec-6] Get product with productId:20
+2020-08-27 00:16:18,880 INFO c.n.n.a.r.ProductRestClient [http-nio-8092-exec-6] Calling Product restClient to get product:20 with url:http://products/products/20
+2020-08-27 00:16:38,122 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(9)-127.0.0.1] Application shutdown requested.
+2020-08-27 00:16:38,123 INFO o.s.c.n.e.s.EurekaServiceRegistry [RMI TCP Connection(9)-127.0.0.1] Unregistering application ACCOUNT with eureka with status DOWN
+2020-08-27 00:16:38,123 WARN c.n.d.DiscoveryClient$3 [RMI TCP Connection(9)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1598467598123, current=DOWN, previous=UP]
+2020-08-27 00:16:38,124 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ACCOUNT/host.docker.internal:account:8092: registering service...
+2020-08-27 00:16:38,129 INFO c.n.u.c.ShutdownEnabledTimer [RMI TCP Connection(9)-127.0.0.1] Shutdown hook removed for: NFLoadBalancer-PingTimer-products
+2020-08-27 00:16:38,135 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ACCOUNT/host.docker.internal:account:8092 - registration status: 204
+2020-08-27 00:16:38,142 INFO o.s.s.c.ExecutorConfigurationSupport [RMI TCP Connection(9)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 00:16:38,147 INFO c.n.d.DiscoveryClient [RMI TCP Connection(9)-127.0.0.1] Shutting down DiscoveryClient ...
+2020-08-27 00:16:41,149 INFO c.n.d.DiscoveryClient [RMI TCP Connection(9)-127.0.0.1] Unregistering ...
+2020-08-27 00:16:41,149 WARN c.n.d.TimedSupervisorTask [DiscoveryClient-0] task supervisor shutting down, can't accept the task
+2020-08-27 00:16:41,153 INFO c.n.d.DiscoveryClient [RMI TCP Connection(9)-127.0.0.1] DiscoveryClient_ACCOUNT/host.docker.internal:account:8092 - deregister  status: 200
+2020-08-27 00:16:41,170 INFO c.n.d.DiscoveryClient [RMI TCP Connection(9)-127.0.0.1] Completed shut down of DiscoveryClient
+2020-08-27 00:16:41,173 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8092"]
+2020-08-27 00:16:41,473 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Stopping service [Tomcat]
+2020-08-27 00:16:41,476 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-08-27 00:16:41,487 WARN o.a.j.l.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] The web application [ROOT] appears to have started a thread named [PollingServerListUpdater-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2020-08-27 00:16:41,488 WARN o.a.j.l.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] The web application [ROOT] appears to have started a thread named [DataPublisher] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2020-08-27 00:16:41,490 WARN o.a.j.l.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] The web application [ROOT] appears to have started a thread named [PollingServerListUpdater-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2020-08-27 00:16:41,493 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8092"]
+2020-08-27 00:16:41,499 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8092"]
+2020-08-27 00:16:41,513 INFO c.n.l.PollingServerListUpdater$LazyHolder$2 [Thread-18] Shutting down the Executor Pool for PollingServerListUpdater

@@ -1,0 +1,16 @@
+Users having following roles
+1.CUSTOMER
+	->username: meeni password : meeni
+	->username: kiran password : kiran
+	->username: sukhi password : sukhi
+2.ADMIN
+	->username: admin password : pass
+
+3.DELIVERY_TEAM
+	->username: mallu password : mallu
+
+4.PRIME_CUSTOMER
+	->username: gunnu password : gunu
+	->username: davy password : davy
+
+       

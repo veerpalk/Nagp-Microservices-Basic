@@ -1,0 +1,55 @@
+package com.nagarro.nagp.order.controllers;
+
+import java.util.List;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.nagarro.nagp.order.entities.Order;
+import com.nagarro.nagp.order.enums.OrderStatus;
+import com.nagarro.nagp.order.service.OrderService;
+
+@RestController
+@RequestMapping(value = "/order")
+public class OrderController {
+
+	Logger logger = LogManager.getLogger(OrderController.class);
+
+	@Autowired
+	OrderService orderService;
+
+	@GetMapping("")
+	public List<Order> getOrder(@RequestParam String userId) {
+		logger.info("Get order for user with userId = {}", userId);
+		return orderService.getOrder(userId);
+	}
+
+	@GetMapping("/all")
+	public List<Order> getAllOrders() {
+		logger.info("Get all orders");
+		return orderService.getAllOrders();
+	}
+
+	@PutMapping("")
+	public ResponseEntity<String> updateOrderStatus(@RequestParam String orderId, @RequestParam OrderStatus status) {
+		logger.info("Update order status as={} with orderId: {}", status, orderId);
+		return orderService.updateOrderStatus(orderId, status);
+
+	}
+
+	@PostMapping("")
+	public ResponseEntity<String> addOrder(@RequestBody Order order) {
+		logger.info("Add order = {}", order);
+		return orderService.addOrder(order);
+	}
+
+}

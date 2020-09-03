@@ -1,0 +1,2 @@
+Just run run.sh
+with same destination as docker-compose.yml

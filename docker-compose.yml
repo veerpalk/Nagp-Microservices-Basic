@@ -1,0 +1,55 @@
+version: '3'
+services:
+  discovery-server:
+    image: veerpalkaur/ecommerce:discovery-server
+    container_name: discovery-server
+    ports:
+      - "8761:8761"
+
+  account:
+    container_name: account
+    image: veerpalkaur/ecommerce:account
+    ports:
+      - "8092:8092"
+    depends_on:
+      - discovery-server
+      
+  products:
+    container_name: products
+    image: veerpalkaur/ecommerce:products
+    ports:
+      - "8091:8091"
+    depends_on:
+      - discovery-server
+      
+  cart:
+    container_name: cart
+    image: veerpalkaur/ecommerce:cart
+    ports:
+      - "8093:8093"
+    depends_on:
+      - discovery-server
+      
+  order:
+    container_name: order
+    image: veerpalkaur/ecommerce:order
+    ports:
+      - "8096:8096"
+    depends_on:
+      - discovery-server
+      
+  payment:
+    container_name: payment
+    image: veerpalkaur/ecommerce:payment
+    ports:
+      - "8094:8094"
+    depends_on:
+      - discovery-server
+      
+  apigateway:
+    container_name: apigateway
+    image: veerpalkaur/ecommerce:apigateway
+    ports:
+      - "9999:9999"
+    depends_on:
+      - discovery-server

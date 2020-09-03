@@ -1,0 +1,59 @@
+2020-08-27 01:02:31,146 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-27 01:02:31,459 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 01:02:32,234 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-27 01:02:33,487 INFO o.s.c.c.s.GenericScope [restartedMain] BeanFactory id=5db6b1c2-e01d-392d-b350-a50903939766
+2020-08-27 01:02:33,650 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 01:02:34,365 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8091 (http)
+2020-08-27 01:02:34,392 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8091"]
+2020-08-27 01:02:34,394 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-27 01:02:34,395 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-08-27 01:02:34,582 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-27 01:02:34,583 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2326 ms
+2020-08-27 01:02:34,703 WARN c.n.c.s.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-08-27 01:02:34,704 INFO c.n.c.s.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-27 01:02:34,711 WARN c.n.c.s.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-08-27 01:02:34,712 INFO c.n.c.s.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-27 01:02:35,088 INFO o.s.s.c.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 01:02:35,401 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-27 01:02:37,301 WARN o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [restartedMain] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-08-27 01:02:37,361 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-08-27 01:02:37,505 INFO o.s.c.n.e.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2020-08-27 01:02:37,576 INFO c.n.d.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2020-08-27 01:02:38,310 INFO c.n.d.p.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2020-08-27 01:02:38,311 INFO c.n.d.p.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2020-08-27 01:02:38,529 INFO c.n.d.p.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2020-08-27 01:02:38,530 INFO c.n.d.p.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2020-08-27 01:02:38,877 INFO c.n.d.s.r.a.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2020-08-27 01:02:39,287 INFO c.n.d.DiscoveryClient [restartedMain] Disable delta property : false
+2020-08-27 01:02:39,287 INFO c.n.d.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2020-08-27 01:02:39,288 INFO c.n.d.DiscoveryClient [restartedMain] Force full registry fetch : false
+2020-08-27 01:02:39,288 INFO c.n.d.DiscoveryClient [restartedMain] Application is null : false
+2020-08-27 01:02:39,289 INFO c.n.d.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2020-08-27 01:02:39,290 INFO c.n.d.DiscoveryClient [restartedMain] Application version is -1: true
+2020-08-27 01:02:39,290 INFO c.n.d.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2020-08-27 01:02:39,559 INFO c.n.d.DiscoveryClient [restartedMain] The response status is 200
+2020-08-27 01:02:39,564 INFO c.n.d.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2020-08-27 01:02:39,572 INFO c.n.d.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-08-27 01:02:39,578 INFO c.n.d.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1598470359576 with initial instances count: 1
+2020-08-27 01:02:39,580 INFO o.s.c.n.e.s.EurekaServiceRegistry [restartedMain] Registering application PRODUCTS with eureka with status UP
+2020-08-27 01:02:39,582 INFO c.n.d.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1598470359582, current=UP, previous=STARTING]
+2020-08-27 01:02:39,585 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_PRODUCTS/host.docker.internal:products:8091: registering service...
+2020-08-27 01:02:39,628 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8091"]
+2020-08-27 01:02:39,664 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_PRODUCTS/host.docker.internal:products:8091 - registration status: 204
+2020-08-27 01:02:39,664 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8091 (http) with context path ''
+2020-08-27 01:02:39,666 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [restartedMain] Updating port to 8091
+2020-08-27 01:02:40,243 INFO o.s.b.StartupInfoLogger [restartedMain] Started ProductsApplication in 10.4 seconds (JVM running for 13.026)
+2020-08-27 01:04:32,582 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(9)-127.0.0.1] Application shutdown requested.
+2020-08-27 01:04:32,583 INFO o.s.c.n.e.s.EurekaServiceRegistry [RMI TCP Connection(9)-127.0.0.1] Unregistering application PRODUCTS with eureka with status DOWN
+2020-08-27 01:04:32,583 WARN c.n.d.DiscoveryClient$3 [RMI TCP Connection(9)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1598470472583, current=DOWN, previous=UP]
+2020-08-27 01:04:32,584 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_PRODUCTS/host.docker.internal:products:8091: registering service...
+2020-08-27 01:04:32,588 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_PRODUCTS/host.docker.internal:products:8091 - registration status: 204
+2020-08-27 01:04:32,589 INFO o.s.s.c.ExecutorConfigurationSupport [RMI TCP Connection(9)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 01:04:32,591 INFO c.n.d.DiscoveryClient [RMI TCP Connection(9)-127.0.0.1] Shutting down DiscoveryClient ...
+2020-08-27 01:04:35,592 INFO c.n.d.DiscoveryClient [RMI TCP Connection(9)-127.0.0.1] Unregistering ...
+2020-08-27 01:04:35,599 INFO c.n.d.DiscoveryClient [RMI TCP Connection(9)-127.0.0.1] DiscoveryClient_PRODUCTS/host.docker.internal:products:8091 - deregister  status: 200
+2020-08-27 01:04:35,609 INFO c.n.d.DiscoveryClient [RMI TCP Connection(9)-127.0.0.1] Completed shut down of DiscoveryClient
+2020-08-27 01:04:35,612 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8091"]
+2020-08-27 01:04:35,824 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Stopping service [Tomcat]
+2020-08-27 01:04:35,835 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8091"]
+2020-08-27 01:04:35,839 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8091"]

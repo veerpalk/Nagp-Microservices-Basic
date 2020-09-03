@@ -1,0 +1,29 @@
+Application Roles
+1.Customer
+ ->see all the products
+ ->Search the product
+ ->get product
+ ->Add product to cart
+ ->update the cart quantity
+ ->place the order
+   ->while placing order payment is made via paytm,cash_on_delivery,Credit_card
+   ->User cart is cleared while placing order
+   ->Order is added to the ordered Items list with its status
+ ->Customer can view all the orders
+
+2.Admin
+ ->see all the users
+ ->add the user
+ ->edit the user
+ ->delete the user
+ ->see all the orders
+ ->update the order status
+ ->Add product to inventory
+ ->Delete product from inventory
+ ->search products
+ ->see all the products
+ ->see particular product
+
+3.Delivery
+ ->view all the orders
+ ->change order status 

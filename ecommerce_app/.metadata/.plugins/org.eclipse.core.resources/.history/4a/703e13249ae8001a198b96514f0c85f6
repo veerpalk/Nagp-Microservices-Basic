@@ -1,0 +1,6 @@
+server.port=8093
+spring.application.name=cart
+
+eureka.client.register-with-eureka=true
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
+

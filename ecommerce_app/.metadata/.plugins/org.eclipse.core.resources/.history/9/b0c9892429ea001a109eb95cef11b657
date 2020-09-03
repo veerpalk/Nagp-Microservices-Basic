@@ -1,0 +1,14 @@
+server.port=8092
+spring.application.name=account
+
+
+
+eureka.client.register-with-eureka=true
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
+
+payment_base_url=http://payment/payment
+order_base_url=http://order/order
+cart_base_url=http://cart/cart
+book_base_url=http://books/books
+
+

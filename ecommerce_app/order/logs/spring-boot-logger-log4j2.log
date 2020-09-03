@@ -1,0 +1,54 @@
+2020-02-17 10:45:52,759 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-17 10:45:53,466 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-17 10:45:54,161 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-02-17 10:45:55,067 INFO o.s.c.c.s.GenericScope [restartedMain] BeanFactory id=9c2c687e-ff04-3f93-b778-4406fba583ba
+2020-02-17 10:45:55,178 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-17 10:45:55,653 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8096 (http)
+2020-02-17 10:45:55,674 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8096"]
+2020-02-17 10:45:55,675 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-02-17 10:45:55,675 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-17 10:45:55,827 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-02-17 10:45:55,828 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1650 ms
+2020-02-17 10:45:55,900 WARN c.n.c.s.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-17 10:45:55,901 INFO c.n.c.s.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-17 10:45:55,910 WARN c.n.c.s.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-17 10:45:55,910 INFO c.n.c.s.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-17 10:45:56,208 INFO o.s.s.c.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-17 10:45:56,426 WARN o.s.b.d.a.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2020-02-17 10:45:58,085 WARN o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [restartedMain] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-02-17 10:45:58,127 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-02-17 10:45:58,212 INFO o.s.c.n.e.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2020-02-17 10:45:58,267 INFO c.n.d.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2020-02-17 10:45:58,798 INFO c.n.d.p.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2020-02-17 10:45:58,798 INFO c.n.d.p.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2020-02-17 10:45:58,937 INFO c.n.d.p.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2020-02-17 10:45:58,938 INFO c.n.d.p.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2020-02-17 10:45:59,156 INFO c.n.d.s.r.a.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2020-02-17 10:45:59,512 INFO c.n.d.DiscoveryClient [restartedMain] Disable delta property : false
+2020-02-17 10:45:59,513 INFO c.n.d.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2020-02-17 10:45:59,513 INFO c.n.d.DiscoveryClient [restartedMain] Force full registry fetch : false
+2020-02-17 10:45:59,513 INFO c.n.d.DiscoveryClient [restartedMain] Application is null : false
+2020-02-17 10:45:59,513 INFO c.n.d.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2020-02-17 10:45:59,514 INFO c.n.d.DiscoveryClient [restartedMain] Application version is -1: true
+2020-02-17 10:45:59,514 INFO c.n.d.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2020-02-17 10:45:59,709 INFO c.n.d.DiscoveryClient [restartedMain] The response status is 200
+2020-02-17 10:45:59,713 INFO c.n.d.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2020-02-17 10:45:59,716 INFO c.n.d.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-02-17 10:45:59,721 INFO c.n.d.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1581916559720 with initial instances count: 5
+2020-02-17 10:45:59,723 INFO o.s.c.n.e.s.EurekaServiceRegistry [restartedMain] Registering application ORDER with eureka with status UP
+2020-02-17 10:45:59,724 INFO c.n.d.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1581916559723, current=UP, previous=STARTING]
+2020-02-17 10:45:59,726 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ORDER/host.docker.internal:order:8096: registering service...
+2020-02-17 10:45:59,746 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8096"]
+2020-02-17 10:45:59,777 INFO c.n.d.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ORDER/host.docker.internal:order:8096 - registration status: 204
+2020-02-17 10:45:59,778 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8096 (http) with context path ''
+2020-02-17 10:45:59,779 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [restartedMain] Updating port to 8096
+2020-02-17 10:46:00,296 INFO o.s.b.StartupInfoLogger [restartedMain] Started OrderApplication in 8.558 seconds (JVM running for 10.604)
+2020-02-17 10:46:28,299 INFO o.a.j.l.DirectJDKLog [http-nio-8096-exec-8] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-17 10:46:28,300 INFO o.s.w.s.FrameworkServlet [http-nio-8096-exec-8] Initializing Servlet 'dispatcherServlet'
+2020-02-17 10:46:28,325 INFO o.s.w.s.FrameworkServlet [http-nio-8096-exec-8] Completed initialization in 25 ms
+2020-02-17 10:46:28,363 INFO c.n.n.o.c.OrderController [http-nio-8096-exec-8] Get all orders
+2020-02-17 10:46:28,363 INFO c.n.n.o.s.i.OrderServiceImpl [http-nio-8096-exec-8] Get all orders from repository
+2020-02-17 10:46:28,363 INFO c.n.n.o.r.OrderRepository [http-nio-8096-exec-8] Getting All order from db 
+2020-02-17 10:46:28,416 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8096-exec-8] Resolved [com.nagarro.nagp.order.exceptions.DataNotFoundException: No Data Found]
+2020-02-17 10:50:59,518 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-02-17 12:06:47,337 INFO c.n.d.s.r.a.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
